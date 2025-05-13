@@ -5,26 +5,22 @@ This project is a lightweight implementation of a Notion-like database system, d
 ## 1. Installation
 
 ```
-github_link clone my_app
+git clone https://github.com/HolikovOleksandr/notion_fastapi.git
 ```
-
 ```
 cd notion_fastapi
 ```
-
 ```
 py -m venv .venv
 ```
 
 Unix
-
 ```
 source .venv/bin/activate
 touch .env
 ```
 
 Windows
-
 ```
 .venv\Scripts\activate
 echo. > .env
