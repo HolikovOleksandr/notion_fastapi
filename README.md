@@ -34,6 +34,10 @@ echo. > .env
 pip install -r requirements.txt
 ```
 
-Set `NOTION_TOKEN` in `.env` file
+Set `NOTION_TOKEN` and `NOTION_DB_ID` in `.env` file
+[YouTube tutorial link](https://www.youtube.com/watch?v=7mo4XrjRFv0&t=187s&ab_channel=Whalesync)
 
-[YouTube tutorial link](https://www.youtube.com/watch?v=ebCLJGIaRPQ&ab_channel=TutorHow)
+Start FastApi server
+```
+uvicorn app.main:app --reload
+```
